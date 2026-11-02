@@ -141,3 +141,12 @@ QR만들어서 하는 거. 크기 조절
 
 링크 줄이기
 [zzr.kr](https://zrr.kr/)에 들어가서 주소 넣고 하면 됨.
+
+
+
+```js
+function hello() {
+    console.log('Hello World');
+}
+```
+
