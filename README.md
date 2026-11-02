@@ -37,5 +37,18 @@ pwd
 
 링크
 [링크 텍스트](https://naver.com)
-
 (https://naver.com)
+
+인라인 코드. 자바일시
+`javascript
+function hello() {
+    console.log('Hello World');
+}
+```
+```python
+def hello():
+    print("Hello World")
+```
+```bash
+npm install package-name
+```
