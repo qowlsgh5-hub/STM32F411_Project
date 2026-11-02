@@ -89,7 +89,7 @@ $$
 
 이미지 가져오기  br은 넘기기?라는데 뭔 소리인지 모르겠음. QR만들어서 설명?
 ##Hardware
-![STM32F411_블럭도](블럭도/F1.png)<br>
+![STM32F411_블럭도](/block diagram/F1.png)<br>
 ![STM32F411_블럭도](블럭도/F2.png)<br>
 
 이미지 폭 변경
