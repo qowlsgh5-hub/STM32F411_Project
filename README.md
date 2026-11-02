@@ -54,7 +54,7 @@ def hello():
 npm install package-name
 ```
 
-
+표만들기(table)
 | 열1 | 열2 | 열3 |
 |-----|-----|-----|
 | 데이터1 | 데이터2 | 데이터3 |
