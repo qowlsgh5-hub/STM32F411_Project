@@ -42,7 +42,7 @@ pwd
 
 인라인 코드  주의점은 '이 아니라 백틱`으로 3개 쓸 것.
  코드 색 볼려면 ```써서 맨 위에 해당 언어 쓰기
- 자바일시 위에 
+ 자바는 javascript 대신 js로 줄여쓰기 가능
 ```javascript
 function hello() {
     console.log('Hello World');
@@ -144,9 +144,5 @@ QR만들어서 하는 거. 크기 조절
 
 
 
-```js
-function hello() {
-    console.log('Hello World');
-}
-```
+
 
