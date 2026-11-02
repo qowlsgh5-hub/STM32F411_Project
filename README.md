@@ -97,6 +97,10 @@ $$
 ![STM32F411_블럭도](블럭도/F2.PNG)<br>
 ![STM32F411_블럭도](블럭도/F3.PNG)<br>
 ![STM32F411_블럭도](블럭도/F4.PNG)<br>
+![펌웨어_RCC:disable](MX_image.png)
+![펌웨어_clock](MX_image(2).png)
+![펌웨어_프로젝트생성(MX_image(3).png)
+
 
 이미지 폭 변경
 <p align="center">
@@ -144,6 +148,7 @@ QR만들어서 하는 거. 크기 조절
 
 링크 줄이기
 [zzr.kr](https://zrr.kr/)에 들어가서 주소 넣고 하면 됨.
+
 
 
 
