@@ -83,3 +83,10 @@ $E = mc^2$ (인라인)
 $$
 \sum_{i=1}^{n} x_i = x_1 + x_2 + ... + x_n
 $$
+
+
+
+
+이미지 가져오기
+##Hardware
+[STM32F411_블럭도](block diagram/F1.png)
