@@ -75,3 +75,11 @@ npm install package-name
 
 뺴기 3번 쓰면 선 생김
 ---
+
+
+수식
+$E = mc^2$ (인라인)
+
+$$
+\sum_{i=1}^{n} x_i = x_1 + x_2 + ... + x_n
+$$
