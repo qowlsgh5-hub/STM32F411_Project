@@ -40,7 +40,9 @@ pwd
 
 (https://naver.com)
 
-인라인 코드. 자바일시
+인라인 코드  주의점은 '이 아니라 백틱`으로 3개 쓸 것.
+ 코드 색 볼려면 ```써서 맨 위에 해당 언어 쓰기
+ 자바일시 위에 
 ```javascript
 function hello() {
     console.log('Hello World');
