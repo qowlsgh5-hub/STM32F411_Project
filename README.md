@@ -89,7 +89,7 @@ $$
 
 이미지 가져오기  br은 넘기기?라는데 뭔 소리인지 모르겠음. QR만들어서 설명?
 ##Hardware
-![STM32F411_블럭도](block%diagram/F1.PNG)<br>
+![STM32F411_블럭도](block%20diagram/F1.PNG)<br>
 ![STM32F411_블럭도](블럭도/F2.PNG)<br>
 
 이미지 폭 변경
@@ -115,7 +115,7 @@ width="200">
   <img src="sc_image_landing.jpg"  height="200">
 </p>
 
-예시
+QR만들어서 하는 거. 크기 조절
 <p align="center">
   <img src="img/F1.PNG">
 </p>
