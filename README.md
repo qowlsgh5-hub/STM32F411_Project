@@ -41,7 +41,7 @@ pwd
 (https://naver.com)
 
 인라인 코드. 자바일시
-`''javascript
+```javascript
 function hello() {
     console.log('Hello World');
 }
