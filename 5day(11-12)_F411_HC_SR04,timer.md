@@ -36,7 +36,7 @@ echo까지 다 연결 후 코드 완성
 거리별(triger 200us기준)<br>
 |long|middle|short|
 |----|----|----|
-|![](img/5/long_range)|![](img/5/middel_range)|![](img/5/short_range)|
+|![](img/5/long_range.jpg)|![](img/5/middel_range.jpg)|![](img/5/short_range.jpg)|
 
 
 
@@ -45,10 +45,12 @@ echo까지 다 연결 후 코드 완성
 
 
 
+
 코드
 ---
 여기의 코드에서 trigger 확인할 때에 <br>
-while문 내에 trig();와 delay문들만 썼음
+while문 내에 trig();와 delay문들만 썼음<br>
+원문에서는 delay가 없으나, 
 
 ```c
 /* Includes ------------------------------------------------------------------*/
