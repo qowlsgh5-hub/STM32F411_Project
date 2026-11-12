@@ -8,6 +8,13 @@ HC_SR04동작을 크게 보면 3가지<br>
 3. Echo에서 전송, 송신 사이의 시간만큼의 파형 보냄.
 ![](HC_SR04_signal.png)<br>
 
+
+연결
+![]()
+
+
+
+
 트리거 핀만 먼저 할 것임.
 
 
@@ -33,24 +40,31 @@ HAL_Delay()문의 경우 틱으로 하는 거라 작은 시간 1ms나 2ms를 하
 
 echo까지 다 연결 후 코드 완성
 ---
+스코프와 연결<br>
+![](img/5/echo확인.png)
 거리별(triger 200us기준)<br>
 |long|middle|short|
 |----|----|----|
 |![](img/5/long_range.jpg)|![](img/5/middle_range.jpg)|![](img/5/short_range.jpg)|
 
 
-
-에코핀도 사용
+참고
 ---
+내부 회로의 40k Hz의 펄스 8개 사진
 
 
+결과
+---
+|이하 |사이|초과|
+|---|---|---|
+|![](distance_below_range.jpg)|![](distance_Within Range.jpg)|![](img/5/distancd_Above_Range.jpg)|
 
 
 코드
 ---
 여기의 코드에서 trigger 확인할 때에 <br>
 while문 내에 trig();와 delay문들만 썼음<br>
-원문에서는 delay가 없으나, 
+원문에서는 delay가 없으나, 안 쓰면 
 
 ```c
 /* Includes ------------------------------------------------------------------*/
@@ -145,7 +159,7 @@ long unsigned int echo(void)
 	  trig();
 	      echo_time = echo();
 	      if( echo_time != 0){
-	          dist = (int)(17 * echo_time / 100);
+	          dist = (int)(17 * echo_time / 100); #거리mm단위 측정. 340 * echo_time(us) /2000 = 0.17*exho_time / 100
 	          printf("Distance = %d(mm)\n", dist);
 	      }
 	      else printf("Out of Range!\n");
