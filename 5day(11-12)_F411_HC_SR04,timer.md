@@ -22,6 +22,7 @@ HC_SR04동작을 크게 보면 3가지<br>
 ---
 F411의 클럭 주기인 84M Hz 에 prescaler로 84로 나눠서 하면 됨. 이때, 0~n-1으로 세는 것이므로 84-1이라 한것. 83 적어도 됨.<br>
 auto-reload-preload를 enable로 만들어줌. 이유는 카운트의 최대값이 중간에 바뀌어서 측정값이 달라지지 않게 하기 위함.<br>
+선 연결은 MX에서 PA는 OUT, PA1은 IN으로 하자.
 ![](img/5/timer1.png)
 ![](img/5/RCC.png)
 ![](img/5/pin_select.png)
@@ -64,6 +65,7 @@ echo까지 다 연결 후 코드 완성
 
 코드
 ---
+위의 사진 중 PA0, PA1의 이름을 TRIGER1, ECHO1로 해둬서 void trig(void)부분에 TRIGER1, while문에 ECHO1로 코드를 쓴 것. 
 여기의 코드에서 trigger 확인할 때에 <br>
 while문 내에 trig();와 delay문들만 썼음<br>
 원문에서는 delay가 없으나, 안 쓰면 
@@ -124,9 +126,9 @@ void delay_us(uint16_t us)
 
 void trig(void)
 {
-   HAL_GPIO_WritePin(TRIG1_GPIO_Port, TRIG1_Pin, HIGH);
+   HAL_GPIO_WritePin(TRIGER1_GPIO_Port, TRIGER1_Pin, HIGH);
    delay_us(10);
-   HAL_GPIO_WritePin(TRIG1_GPIO_Port, TRIG1_Pin, LOW);
+   HAL_GPIO_WritePin(TRIGER1_GPIO_Port, TRIGER1_Pin, LOW);
 }
 
 /**
