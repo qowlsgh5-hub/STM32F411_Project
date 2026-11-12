@@ -30,12 +30,12 @@ auto-reload-preload를 enable로 만들어줌. 이유는 카운트의 최대값�
 delay문을 타이머로 만들어서 쓰는 이유
 ---
 HAL_Delay()문의 경우 틱으로 하는 거라 작은 시간 1ms나 2ms를 하면 아래의 사진들과 같이 딜레이가 변조될 우려가 있음.<br>
-1ms줄 경우 <br>
-![](img/5/HAL_Delay(1)_result.jpg) <br>
-2ms 줄 경우 <br>
-![](img/5/HAL_Delay(2)_result.jpg)<br>
-타이머로 제대로 delay_us란 이름으로 만든 것(200us)<br>
-![](img/5/delay_us(200)_result.jpg)
+|1ms줄 경우|2ms 줄 경우|타이머로 제대로 delay_us란 이름으로 만든 것(200us)|
+|---|---|---|
+|![](img/5/HAL_Delay(1)_result.jpg) <br>|![](img/5/HAL_Delay(2)_result.jpg)<br>|![](img/5/delay_us(200)_result.jpg)|
+
+
+
 
 
 echo까지 다 연결 후 코드 완성
