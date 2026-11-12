@@ -57,7 +57,7 @@ echo까지 다 연결 후 코드 완성
 ---
 |이하 |사이|초과|
 |---|---|---|
-|![](img/5/distance_below_range.jpg)|![](img/5/distancd_Above_Range.jpg)|![](img/5/distancd_Above_Range.jpg)|
+|![](img/5/distance_below_range.jpg)|![](img/5/distance_Within Range.jpg)|![](img/5/distancd_Above_Range.jpg)|
 
 
 코드
