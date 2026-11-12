@@ -55,6 +55,8 @@ echo까지 다 연결 후 코드 완성
 
 결과
 ---
+초과에서 왜 중간에 over가 아닌지 모르겠음.
+240us이하, 23000us초과일시 out of range 출
 |이하 |사이|초과|
 |---|---|---|
 |![](img/5/distance_below_range.jpg)| ![](img/5/distance_Within%20Range.jpg)|![](img/5/distancd_Above_Range.jpg)|
