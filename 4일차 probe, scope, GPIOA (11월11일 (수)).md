@@ -80,6 +80,7 @@ BSRR바꿀거면 ODR냅두고  0x40으로 켜고(set), 0x4000으로 끄기(reset
 | 열1 | 열2 | 열3 | 열4 |
 |-----|-----|-----|-----|
 |켠 순간| 끈 순간 |on 디버그창|off 디버그창|
-| ![](img/4/portA6_on.jpg) | ![](img/4/pa_6_off.jpg) |![](img/4/pa6_on_debug.png) | ![](img/4/pa6_on_debug.png)|
+| ![](img/4/portA6_on.jpg) | ![](img/4/pa_6_off.jpg) |<p align="center"><img src="img/4/pa6_on_debug.png" width="200">
+</p> | ![](img/4/pa6_on_debug.png)|
 
 
