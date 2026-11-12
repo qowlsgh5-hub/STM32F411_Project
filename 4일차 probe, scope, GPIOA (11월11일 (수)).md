@@ -15,6 +15,18 @@
 
 스코프 실험(LD2 PA5번핀)
 ---
+
+```C
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+	  counter++;
+	  HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
+	  HAL_Delay(500);
+    /* USER CODE END WHILE */
+```
+
 f4111보드에서 Gnd와 SCK/D13핀(위에서 5번째)을 프로브와 연결
 디버깅 후 HAL_DELAY줄에서 trigger에서 에지, 보통으로 한 후 상승, 하강 찍음
 코드는 토글, delay순서로 되어있었음
