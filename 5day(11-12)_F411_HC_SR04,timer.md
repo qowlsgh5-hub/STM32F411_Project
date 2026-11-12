@@ -45,7 +45,7 @@ echo까지 다 연결 후 코드 완성
 거리별(triger 200us기준)<br>
 |long|middle|short|
 |----|----|----|
-|![](img/5/long_range.jpg)|![](img/5/middle_range.jpg)|![](img/5/short_range.jpg)|
+|![](img/5/long_range.jpg) |![](img/5/middle_range.jpg) |![](img/5/short_range.jpg)|
 
 
 참고
@@ -57,7 +57,7 @@ echo까지 다 연결 후 코드 완성
 ---
 |이하 |사이|초과|
 |---|---|---|
-|![](img/5/distance_below_range.jpg)|![](img/5/distance_Within Range.jpg)|![](img/5/distancd_Above_Range.jpg)|
+|![](img/5/distance_below_range.jpg)|![](img/5/distancd_Above_Range.jpg)|![](img/5/distancd_Above_Range.jpg)|
 
 
 코드
