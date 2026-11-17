@@ -68,9 +68,8 @@ echo까지 다 연결 후 코드 완성
 코드
 ---
 위의 사진 중 PA0, PA1의 이름을 TRIGER1, ECHO1로 해둬서 void trig(void)부분에 TRIGER1, while문에 ECHO1로 코드를 쓴 것. 
-여기의 코드에서 trigger 확인할 때에 <br>
-while문 내에 trig();와 delay문들만 썼음<br>
-원문에서는 delay가 없으나, 안 쓰면 
+여기의 코드에서 trigger 확인할 때에 while문 내에 trig();와 delay문들만 썼음<br>
+원문에서는 while문에 HAL_Delay(200);이 없으나, 사정 거리 밖이라고 자꾸 에러가 나서 초음파 수신하는 주기 늘릴려고 넣음.
 
 ```c
 /* Includes ------------------------------------------------------------------*/
