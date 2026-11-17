@@ -22,7 +22,8 @@ HC_SR04동작을 크게 보면 3가지<br>
 ---
 F411의 HSI의 클럭 주기인 84M Hz 에 prescaler로 84로 나눠서 하면 됨. 이때, 0~n-1으로 세는 것이므로 84-1이라 한것. 83 적어도 됨.<br>
 auto-reload-preload를 enable로 만들어줌. 이유는 카운트의 최대값이 중간에 바뀌어서 측정값이 달라지지 않게 하기 위함.<br>
-선 연결은 MX에서 PA는 OUT, PA1은 IN으로 하자.
+선 연결은 MX에서 PA는 GPIO_Output, PA1은 GPIO_Input으로 하고 나서 이름을 rename해서 TIGER1, ECHO1로 해둠. TRIGGER이 아닌 TRIFER로 G하나니까 주의. 해당 핀 이름을 바꿔서 나중에 코드에서도 바꿔야함.
+참고로 좌클릭으로 입출력 설정, 우클릭으로 using user laberl로 rename해줌
 ![핀설정](img/4/sr04_핀아웃뷰.png)
 ![](img/5/timer1.png)
 ![](img/5/RCC.png)
