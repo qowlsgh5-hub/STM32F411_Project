@@ -80,7 +80,7 @@ echo까지 다 연결 후 코드 완성
 #include <stdio.h>
 /* USER CODE END Includes */
 ```
-'''c
+```c
 /* USER CODE BEGIN PD */
 #define HIGH 1
 #define LOW 0
