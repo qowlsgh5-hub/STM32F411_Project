@@ -23,6 +23,7 @@ HC_SR04동작을 크게 보면 3가지<br>
 F411의 HSI의 클럭 주기인 84M Hz 에 prescaler로 84로 나눠서 하면 됨. 이때, 0~n-1으로 세는 것이므로 84-1이라 한것. 83 적어도 됨.<br>
 auto-reload-preload를 enable로 만들어줌. 이유는 카운트의 최대값이 중간에 바뀌어서 측정값이 달라지지 않게 하기 위함.<br>
 선 연결은 MX에서 PA는 OUT, PA1은 IN으로 하자.
+![핀설정](img/4/sr04_핀아웃뷰.png)
 ![](img/5/timer1.png)
 ![](img/5/RCC.png)
 ![](img/5/pin_select.png)
