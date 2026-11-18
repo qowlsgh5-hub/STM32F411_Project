@@ -6,11 +6,9 @@ HC_SR04동작을 크게 보면 3가지<br>
 1. triger로 10us의 파형이 들어감
 2.  40k Hz의 신호 전송 후 받음
 3. Echo에서 전송, 송신 사이의 시간만큼의 파형 보냄.
-![](HC_SR04_signal.png)<br>
+![](img/5/HC_SR04_signal.png)<br>
 
 
-연결
-![]()
 
 
 
