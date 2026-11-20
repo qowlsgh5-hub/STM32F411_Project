@@ -942,4 +942,13 @@ print(f"   • MCU(ESP32)에 탑재 시 {int8_size/1024:.1f}KB면 충분 (ESP32 
 </detail>
 
 
+5. X-Cube-AI 설치 (CubeMX 내 Software Packs)
+   ---
+(1)STM32CubeMX 실행<br>
+(2)메뉴: Help → Manage embedded software packs<br>
+(3)탭: STMicroelectronics 선택<br>
+(4)목록에서 X-CUBE-AI 찾기<br>
+(5)최신 버전 선택 후 Install 클릭<br>
 
+
+   
