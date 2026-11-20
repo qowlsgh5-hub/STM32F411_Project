@@ -22,13 +22,13 @@
 | SYS Timebase Source | **SysTick 유지** | 아래 참고 참고 |
 
 순서대로 사진으로 표기<br>
-![1.2.1.1.png](img/9/)<br>
-![1.2.1.2.png](img/9/)<br>
-![1.2.1.3.png](img/9/)<br>
-![1.2.1.4~5.png](img/9/)<br>
-![1.2.1.6.png](img/9/)<br>
-![1.2.1.7.png](img/9/)<br>
-![1.2.1.8~9.png](img/9/)<br>
+![](img/9/1.2.1.1.png)<br>
+![](img/9/1.2.1.2.png)<br>
+![](img/9/1.2.1.3.png)<br>
+![](img/9/1.2.1.4~5.png)<br>
+![](img/9/1.2.1.6.png)<br>
+![](img/9/1.2.1.7.png)<br>
+![](img/9/1.2.1.8~9.png)<br>
 
 
 
