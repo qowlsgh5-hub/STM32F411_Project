@@ -50,7 +50,7 @@
    그 폴더 내부에 test(테스트용)와 train(학습용 폴더) 만들어짐<br>
 
 <details>
-<summary><mnist_pc_train.py></summary>
+<summary>mnist_pc_train.py</summary>
 
   ```c
 # mnist_pc_train.py
