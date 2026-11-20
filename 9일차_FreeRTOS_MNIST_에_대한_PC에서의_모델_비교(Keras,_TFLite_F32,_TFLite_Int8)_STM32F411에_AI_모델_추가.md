@@ -140,7 +140,7 @@ print("\n💾 모델 저장 완료: mnist_pc_model.h5")
 </details>
 
 <details>
-<summary><unzip.py></summary>
+<summary>unzip.py</summary>
 ```c
 # unzip.py
 import os
@@ -199,7 +199,7 @@ print("저장 위치:", output_dir)
 
 
 <details>
-<summary><mnist_to_tflite.py코드></summary>
+<summary>mnist_to_tflite.py코드</summary>
 
 ```c
 # mnist_to_tflite.py
@@ -315,7 +315,7 @@ edit visualize_all_results.py후 4.4의 코드 복사 후 실행하면 결과로
  위치는 Users/user에 viz로 시작하는 사진 4개<br>
 
 <details>
-<summary><mnist_tflite_eval.py코드></summary>
+<summary>mnist_tflite_eval.py코드</summary>
 ```c
 # mnist_tflite_eval.py
 # TFLite 모델 (Float32 vs Int8) 추론 및 정확도/속도 비교
@@ -485,7 +485,7 @@ print(f"{'='*60}")
 
 
 <details>
-<summary><visualize_all_results.py></summary>
+<summary>visualize_all_results.py</summary>
 
 ```c
 # visualize_all_results.py
@@ -795,7 +795,7 @@ edit mnist_full_comparison.py하고 위에처럼 하면 됨.
 
 </details>
 <detail>
-<summary><mnist_full_comparison.py코드></summary>
+<summary>mnist_full_comparison.py코드</summary>
 
 # mnist_full_comparison.py
 # 전체 파이프라인: 학습 → 변환 → 평가 → 비교
